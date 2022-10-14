@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif; 
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.container {
+    background-image: url("https://images.pexels.com/photos/2340254/pexels-photo-2340254.jpeg");
+    background-color: #e9cb01;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;  
+    display: grid;
+    place-items: center;
+
+}
+
+#calcolatrice {
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #000;
+    background-color: #bbb6b4;
+
+}
+
+.display {
+    border-radius: 15px;
+    margin: 0 10px;
+    height: 180px;
+    width: 270px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
+}
+
+input {
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+#uguale {
+    height: 60px;
+    width: 280px;
+    order: 0;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    background-color: #e9cb01;
+}
+
+#uguale:hover {
+    transform: scale(1.1);
+}
+
+#calcolatrice input.tasto {
+    background-color: #4b4845;
+    color: #ffd5d8;
+}
